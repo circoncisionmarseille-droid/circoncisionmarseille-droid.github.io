@@ -138,6 +138,11 @@ details p{color:var(--muted);padding-bottom:20px}
 footer{border-top:1px solid var(--line);padding-block:48px 28px;font-size:.9rem;color:var(--muted)}
 footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
 footer b{display:block;color:var(--ink);font-weight:600;margin-bottom:6px}
+footer .avis{display:flex;align-items:center;justify-content:space-between;gap:18px 32px;flex-wrap:wrap;padding:24px 28px;margin-bottom:40px;border:1px solid var(--line);border-radius:14px;background:var(--tint);font-size:1rem}
+footer .avis b{font-size:1.15rem}
+footer .avis .btn{padding:16px 28px;font-size:1.02rem}
+footer .avis .btn svg{width:18px;height:18px}
+@media (max-width:640px){footer .avis{padding:22px 20px}footer .avis .btn{width:100%}}
 .legal{margin-top:40px;padding-top:28px;border-top:1px solid var(--line);display:grid;gap:10px;font-size:.82rem}
 .legal h2{font-family:var(--f-body);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--ink)}
 .legal b{color:var(--ink);display:inline;margin:0}
